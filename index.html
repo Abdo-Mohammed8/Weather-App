@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+
+    <link rel="shortcut icon" href="./images/Wineass-Ios7-Redesign-Weather.512.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+
+
+</head>
+<body>
+    
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="branding text-decoration-none d-flex " href="/">
+                <img src="./images/logo@2x.png" alt="logo" width="64" height="38">
+                <div class="logo-type m-2">
+                    <h1 class="site-title ms-2 text-white fs-6 fw-semibold m-0">Weather</h1>
+                    <p class="site-description ms-2 mt-2">tagline goes here</p>
+                </div>
+            </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">News</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Live cameras</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Photos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Contact</a>
+              </li>
+              
+            
+            </ul>
+           
+          </div>
+        </div>
+      </nav>
+
+    <main>
+        <header class="header">
+            <div class="container">
+                <div class="hero">
+                    <div class="input-group mb-3 my-input">
+                        <input  id="searchInput" type="text" class="form-control" placeholder="Find your location..." >
+                        <button id="find" type="button" class="btn btn-primary px-5">Find</button>
+                    </div>  
+                    <dir id="error"></dir>
+                </div>
+
+                    <div  class="row rounded-4 overflow-hidden g-0 ">
+                        <div id="colOne" class="col-lg-4 " >
+                            
+                        </div>
+                        <div id="colTow" class="col-lg-4">
+                            
+                        </div>
+                        <div id="colThree" class="col-lg-4">
+                           
+                        </div>
+                    </div>
+
+
+                
+            </div>
+
+        </header>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8">
+                        
+                            <div class="input-group mb-3 my-input">
+                                <input type="text" class="form-control" placeholder="Enter your email to subscribe..." >
+                                <button type="button" class="btn btn-primary px-3">Subscribe</button>
+                            </div>  
+                    </div>
+                    <div class="col-lg-4">
+                        
+                            
+                                
+                                    <div class="social-links d-flex gap-1">
+                                        <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                                        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+                                        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                                    </div>
+                                
+                            
+                    </div>
+                </div>
+                <p class="mb-3">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer>
+    </main>
+
+  
+
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+</html>
